@@ -1,0 +1,13 @@
+
+.btn {
+    @include flex-center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
